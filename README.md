@@ -339,18 +339,23 @@ Barnaby, tail wagging furiously, eyed the mango with uncontainable glee. He’d 
 
 With a shared glance, a silent agreement passed between the two.  Marmalade delicately took the first bite, the sweet juice dripping down her chin. Barnaby, with a happy yelp, followed suit, his small teeth sinking into the fragrant flesh.  The mango, a symbol of their bond, disappeared in a flurry of happy licks and satisfied purrs, leaving behind only a lingering sweetness in the air.
 
+
 <img width="1024" height="1024" alt="full_scene" src="https://github.com/user-attachments/assets/e85ac5dc-e99d-486b-8c41-e0664906f68a" />
+
 
 - CHARACTER DESCRIPTION 
 **Marmalade:** A ginger cat with thick, fluffy fur. Her eyes are a warm amber, and her expression is one of quiet contentment and cunning. She is sitting upright on a wooden crate, her tail neatly curled. She wears no clothing or accessories.
 
 **Barnaby:** A small, scruffy terrier with brown and white fur. One ear flops over playfully. His tail wags constantly, reflecting his excited mood.  His expression is pure joy. He wears no clothing or accessories and is standing on all four paws.
 
+
 <img width="1024" height="1024" alt="character" src="https://github.com/user-attachments/assets/fdc7b92e-8376-41cb-9cd9-60c54a3f561b" />
+
 
 
 - BACKGROUND DESCRIPTION 
 The scene unfolds under the dappled shade of a large, ancient mango tree, its branches heavy with ripe, golden fruit. Sunlight filters through the leaves, casting a warm, inviting glow. The ground is covered in soft, mossy earth, dotted with wildflowers. A weathered wooden crate sits near the base of the tree, slightly to the left of center. To the right, a small, partially visible stone wall suggests a nearby orchard. The overall palette is warm and inviting, with shades of greens, golds, and browns dominating. The air is filled with a gentle breeze, rustling the leaves and creating a sense of calm and tranquility.
+
 
 <img width="1024" height="1024" alt="background" src="https://github.com/user-attachments/assets/8c96149a-93e2-4d40-b8ef-a143ebade7b6" />
 
