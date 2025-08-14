@@ -332,7 +332,8 @@ Enter your story idea: cat and dog are planning to eat mango
 
 🔍 Key objects/characters detected: ['cat', 'dog', 'planning', 'eat', 'mango']
 
-- STORY 
+- STORY
+  
 Whiskers twitched, a fluffy ginger cat named Marmalade perched on a weathered wooden crate. Below, Barnaby, a scruffy terrier with one ear perpetually flopped, held a ripe, golden mango aloft. Their grand plan, hatched under the shade of a sprawling mango tree, was simple: a shared feast. Marmalade, ever the strategist, had meticulously mapped out the perfect bite-sized portions using twigs and pebbles, ensuring equitable distribution.
 
 Barnaby, tail wagging furiously, eyed the mango with uncontainable glee. He’d sniffed out this treasure in the nearby orchard, a juicy reward for their collaborative efforts.  Their friendship, forged in playful chases and shared naps, was about to be cemented with the sweetest of treats.  The air hummed with anticipation, a symphony of chirping crickets and rustling leaves.
@@ -343,7 +344,8 @@ With a shared glance, a silent agreement passed between the two.  Marmalade deli
 <img width="1024" height="1024" alt="full_scene" src="https://github.com/user-attachments/assets/e85ac5dc-e99d-486b-8c41-e0664906f68a" />
 
 
-- CHARACTER DESCRIPTION 
+- CHARACTER DESCRIPTION
+  
 **Marmalade:** A ginger cat with thick, fluffy fur. Her eyes are a warm amber, and her expression is one of quiet contentment and cunning. She is sitting upright on a wooden crate, her tail neatly curled. She wears no clothing or accessories.
 
 **Barnaby:** A small, scruffy terrier with brown and white fur. One ear flops over playfully. His tail wags constantly, reflecting his excited mood.  His expression is pure joy. He wears no clothing or accessories and is standing on all four paws.
@@ -353,7 +355,8 @@ With a shared glance, a silent agreement passed between the two.  Marmalade deli
 
 
 
-- BACKGROUND DESCRIPTION 
+- BACKGROUND DESCRIPTION
+  
 The scene unfolds under the dappled shade of a large, ancient mango tree, its branches heavy with ripe, golden fruit. Sunlight filters through the leaves, casting a warm, inviting glow. The ground is covered in soft, mossy earth, dotted with wildflowers. A weathered wooden crate sits near the base of the tree, slightly to the left of center. To the right, a small, partially visible stone wall suggests a nearby orchard. The overall palette is warm and inviting, with shades of greens, golds, and browns dominating. The air is filled with a gentle breeze, rustling the leaves and creating a sense of calm and tranquility.
 
 
