@@ -1,0 +1,14 @@
+django>=5.0,<6.0
+python-dotenv>=1.0.1
+pillow>=10.3.0
+requests>=2.32.3
+pydantic>=2.8.2
+tenacity>=8.5.0
+djangorestframework 
+python-json-logger
+
+# LangChain + Google GenAI
+langchain-core>=0.3.0
+langchain-google-genai>=2.0.4
+google-generativeai>=0.7.2
+google-auth>=2.34.0

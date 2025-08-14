@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LangStory - Generate a New Story</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <style>
+        /* A more refined, custom dark theme */
+        :root {
+            --pico-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+            --pico-primary: #7c3aed;
+            /* A vibrant violet */
+            --pico-primary-hover: #6d28d9;
+            --pico-primary-focus: rgba(124, 58, 237, 0.25);
+            --pico-background-color: #111827;
+            /* Dark blue-gray */
+            --pico-card-background-color: #1f2937;
+            /* Lighter card background */
+            --pico-color: #d1d5db;
+            /* Softer white text */
+            --pico-h1-color: #f9fafb;
+            --pico-border-color: #374151;
+        }
+
+        body {
+            background-image: radial-gradient(circle at 1px 1px, #374151 1px, transparent 0);
+            background-size: 2rem 2rem;
+        }
+
+        main.container {
+            max-width: 768px;
+            /* Optimal reading width */
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        /* Style the main form card */
+        .form-card {
+            border: 1px solid var(--pico-border-color);
+            border-radius: var(--pico-border-radius);
+            padding: 2rem;
+            margin-top: 2rem;
+            background-color: var(--pico-card-background-color);
+        }
+
+        /* Better focus state for the textarea */
+        textarea:focus {
+            box-shadow: 0 0 0 2px var(--pico-primary-focus);
+        }
+
+        /* Subtle animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        main {
+            animation: fadeIn 0.5s ease-out;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <header style="text-align: center;">
+            <h1> LangStory</h1>
+            <p>Turn your ideas into stories and art in seconds.</p>
+        </header>
+
+        {% if error %}
+        <article style="border-left: 4px solid var(--pico-form-element-invalid-border-color); padding-left: 1rem;">
+            <strong>Error:</strong> {{ error }}
+        </article>
+        {% endif %}
+
+        <div class="form-card">
+            <form id="story-form" method="post" action="{% url 'generate_story' %}">
+                {% csrf_token %}
+                <label for="prompt">
+                    <strong>Enter your story idea</strong>
+                    <small>For example: "A librarian who discovers a book that writes itself."</small>
+                </label>
+                <textarea id="prompt" name="prompt" rows="5"
+                    placeholder="A cat who sails a paper boat across a moonlit lake..." required></textarea>
+
+                <button id="generate-btn" type="submit">Generate Story</button>
+            </form>
+        </div>
+
+        <footer style="text-align: center; margin-top: 2rem; font-size: 0.9rem; color: #6b7280;">
+            <p>Powered by Langchain and Django</p>
+        </footer>
+
+    </main>
+
+    <script>
+        // Simple script to show a loading state on the button upon form submission
+        const form = document.getElementById('story-form');
+        const button = document.getElementById('generate-btn');
+
+        form.addEventListener('submit', () => {
+            button.setAttribute('aria-busy', 'true');
+            button.textContent = 'Generating, please wait...';
+            button.disabled = true;
+        });
+    </script>
+</body>
+
+</html>
