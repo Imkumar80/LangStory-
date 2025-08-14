@@ -53,11 +53,11 @@ Start the server
 
 # Prompt Engineering Documentation
 
-## Studio Ghibli Story Generator
+## Story Generator
 
 ### Overview
 
-This system uses a sophisticated prompt engineering approach to generate cohesive Studio Ghibli-style stories with accompanying artwork. The process involves multiple stages of prompt refinement and specialized chains for different content types.
+I have used a sophisticated prompt engineering approach to generate cohesive Studio Ghibli-style stories with accompanying artwork. The process involves multiple stages of prompt refinement and specialized chains for different content types.
 
 ---
 
