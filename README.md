@@ -328,11 +328,12 @@ This documentation provides a comprehensive understanding of how prompt engineer
 
 
 ## Sample_Output
-Enter your story idea: cat and dog are planning to eat mango
+**Enter your story idea: cat and dog are planning to eat mango**
 
 🔍 Key objects/characters detected: ['cat', 'dog', 'planning', 'eat', 'mango']
 
 - STORY
+- 
   
 Whiskers twitched, a fluffy ginger cat named Marmalade perched on a weathered wooden crate. Below, Barnaby, a scruffy terrier with one ear perpetually flopped, held a ripe, golden mango aloft. Their grand plan, hatched under the shade of a sprawling mango tree, was simple: a shared feast. Marmalade, ever the strategist, had meticulously mapped out the perfect bite-sized portions using twigs and pebbles, ensuring equitable distribution.
 
@@ -345,6 +346,7 @@ With a shared glance, a silent agreement passed between the two.  Marmalade deli
 
 
 - CHARACTER DESCRIPTION
+- 
   
 **Marmalade:** A ginger cat with thick, fluffy fur. Her eyes are a warm amber, and her expression is one of quiet contentment and cunning. She is sitting upright on a wooden crate, her tail neatly curled. She wears no clothing or accessories.
 
@@ -356,6 +358,7 @@ With a shared glance, a silent agreement passed between the two.  Marmalade deli
 
 
 - BACKGROUND DESCRIPTION
+- 
   
 The scene unfolds under the dappled shade of a large, ancient mango tree, its branches heavy with ripe, golden fruit. Sunlight filters through the leaves, casting a warm, inviting glow. The ground is covered in soft, mossy earth, dotted with wildflowers. A weathered wooden crate sits near the base of the tree, slightly to the left of center. To the right, a small, partially visible stone wall suggests a nearby orchard. The overall palette is warm and inviting, with shades of greens, golds, and browns dominating. The air is filled with a gentle breeze, rustling the leaves and creating a sense of calm and tranquility.
 
