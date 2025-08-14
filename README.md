@@ -3,7 +3,8 @@
 
 LangStory is a Django-based web application that uses **LangChain** to generate AI-powered stories and images from user prompts.  
 ● Takes a user prompt as text input 
-**Generates:**
+
+### Generates:
 1. Short story 
 2. Detailed character description 
 3. Detailed background/scene description 
