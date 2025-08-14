@@ -345,7 +345,7 @@ With a shared glance, a silent agreement passed between the two.  Marmalade deli
 <img width="1024" height="1024" alt="full_scene" src="https://github.com/user-attachments/assets/e85ac5dc-e99d-486b-8c41-e0664906f68a" />
 
 
-###CHARACTER DESCRIPTION
+### CHARACTER DESCRIPTION
   
   
 **Marmalade:** A ginger cat with thick, fluffy fur. Her eyes are a warm amber, and her expression is one of quiet contentment and cunning. She is sitting upright on a wooden crate, her tail neatly curled. She wears no clothing or accessories.
