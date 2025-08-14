@@ -1,8 +1,21 @@
 
-# LangChain + Django AI Story and Image Generation WebInterface
+# LangChain + Django AI Story and Image Generation Web-Interface
 
 LangStory is a Django-based web application that uses **LangChain** to generate AI-powered stories and images from user prompts.  
-
+● Takes a user prompt as text input 
+●** Generates: **
+1. Short story 
+2. Detailed character description 
+3. Detailed background/scene description 
+● Uses the character description to build a prompt for character image 
+generation. 
+● Uses the background description to build a prompt for background image 
+generation. 
+● Generates two separate images (character + background) using 
+free/open-source AI models. 
+● Combines these into a unified scene image. 
+● Displays story text, character description, and combined image on the 
+web interface. 
 
 
 ## Run Locally
@@ -326,16 +339,18 @@ Barnaby, tail wagging furiously, eyed the mango with uncontainable glee. He’d 
 
 With a shared glance, a silent agreement passed between the two.  Marmalade delicately took the first bite, the sweet juice dripping down her chin. Barnaby, with a happy yelp, followed suit, his small teeth sinking into the fragrant flesh.  The mango, a symbol of their bond, disappeared in a flurry of happy licks and satisfied purrs, leaving behind only a lingering sweetness in the air.
 
-![image.png](attachment:61620986-6687-41f4-be31-69385d8cd487:image.png)
+<img width="1024" height="1024" alt="full_scene" src="https://github.com/user-attachments/assets/e85ac5dc-e99d-486b-8c41-e0664906f68a" />
 
 - CHARACTER DESCRIPTION 
 **Marmalade:** A ginger cat with thick, fluffy fur. Her eyes are a warm amber, and her expression is one of quiet contentment and cunning. She is sitting upright on a wooden crate, her tail neatly curled. She wears no clothing or accessories.
 
-        **Barnaby:** A small, scruffy terrier with brown and white fur. One ear flops over playfully. His tail wags constantly, reflecting his excited mood.  His expression is pure joy. He wears no clothing or accessories and is standing on all four paws.
+**Barnaby:** A small, scruffy terrier with brown and white fur. One ear flops over playfully. His tail wags constantly, reflecting his excited mood.  His expression is pure joy. He wears no clothing or accessories and is standing on all four paws.
 
-![image.png](attachment:6ec9164d-8d36-427f-b6ed-d936aa380526:image.png)
+<img width="1024" height="1024" alt="character" src="https://github.com/user-attachments/assets/fdc7b92e-8376-41cb-9cd9-60c54a3f561b" />
+
 
 - BACKGROUND DESCRIPTION 
 The scene unfolds under the dappled shade of a large, ancient mango tree, its branches heavy with ripe, golden fruit. Sunlight filters through the leaves, casting a warm, inviting glow. The ground is covered in soft, mossy earth, dotted with wildflowers. A weathered wooden crate sits near the base of the tree, slightly to the left of center. To the right, a small, partially visible stone wall suggests a nearby orchard. The overall palette is warm and inviting, with shades of greens, golds, and browns dominating. The air is filled with a gentle breeze, rustling the leaves and creating a sense of calm and tranquility.
 
-![image.png](attachment:b0ccfbb5-5970-44a8-993c-9b5f13d220d1:image.png)
+<img width="1024" height="1024" alt="background" src="https://github.com/user-attachments/assets/8c96149a-93e2-4d40-b8ef-a143ebade7b6" />
+
