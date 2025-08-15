@@ -58,12 +58,8 @@ Start the server
 ```
 
 
-## Screenshots
 
 
-
-
-## Documentation
 
 # Prompt Engineering Documentation
 
